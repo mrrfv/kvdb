@@ -97,7 +97,7 @@ fastify.get("/healthcheck", async (request, reply) => {
  */
 const start = async () => {
   try {
-    await fastify.listen({ port: process.env.PORT || 3000 });
+    await fastify.listen({ port: process.env.PORT || 3000, host: '0.0.0.0' });
     // Delete old keys at startup
     deleteOldKeys();
   } catch (err) {
