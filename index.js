@@ -87,6 +87,11 @@ fastify.addHook("onRequest", async (request, reply) => {
   }
 });
 
+// Respond to /healthcheck requests with a 200 OK
+fastify.get("/healthcheck", async (request, reply) => {
+  return reply.code(200).send();
+});
+
 /**
  * Run the server!
  */
