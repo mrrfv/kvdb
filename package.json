@@ -18,5 +18,8 @@
     "@fastify/throttle": "^1.0.0",
     "dotenv": "^16.3.1",
     "fastify": "^4.23.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
