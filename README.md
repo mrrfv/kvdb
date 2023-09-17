@@ -10,7 +10,7 @@ By using this project, you can host your own key-value database server, with no 
 
 ## Features
 
-- Very simple API
+- Very simple API - create, update, read and delete - that's it
 - Meant to be directly connected to from the client, no additional backend needed
 - **No authentication (key name is considered secret)** - please keep this in mind when using this project
 - Optional response speed throttling
@@ -68,7 +68,7 @@ Returns the value of the key `KEY_NAME`.
 }
 ```
 
-Creates a key. An optional key name can be specified in a `name` JSON parameter. If no name is specified, a secure random string will be used. The key name must contain no spaces or special characters. `roname` is the name of the read-only key that is created alongside the regular key.
+Creates a key. An optional key name can be specified in a `name` JSON parameter. If no name is specified, a secure random string will be used. The key name must contain no spaces or special characters. `name_readonly` is the name of the read-only key that is created alongside the regular key.
 
 If a key is invalid, the server will generate a new key name and return it in the response.
 
@@ -91,7 +91,7 @@ If a key is invalid, the server will generate a new key name and return it in th
 }
 ```
 
-Updates the value of the key `KEY_NAME` to `NEW_VALUE`.
+Updates the value of the key `namme` to `value`.
 
 #### DELETE /key?name=KEY_NAME
 
