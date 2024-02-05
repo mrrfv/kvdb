@@ -14,7 +14,7 @@
     "@fastify/compress": "^7.0.0",
     "@fastify/cors": "^9.0.0",
     "@fastify/postgres": "^5.2.0",
-    "@fastify/rate-limit": "^8.0.3",
+    "@fastify/rate-limit": "^9.0.0",
     "@fastify/throttle": "^2.0.0",
     "dotenv": "^16.3.1",
     "fastify": "^4.23.2"
