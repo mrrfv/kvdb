@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fastify/compress": "^7.0.0",
-    "@fastify/cors": "^8.3.0",
+    "@fastify/cors": "^9.0.0",
     "@fastify/postgres": "^5.2.0",
     "@fastify/rate-limit": "^8.0.3",
     "@fastify/throttle": "^2.0.0",
