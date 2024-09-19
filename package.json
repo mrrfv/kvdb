@@ -17,7 +17,7 @@
     "@fastify/rate-limit": "^9.0.0",
     "@fastify/throttle": "^3.0.0",
     "dotenv": "^16.3.1",
-    "fastify": "^4.23.2"
+    "fastify": "^5.0.0"
   },
   "engines": {
     "node": ">=18"
